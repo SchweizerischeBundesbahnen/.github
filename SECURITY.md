@@ -2,7 +2,7 @@
 If you believe you have found a security vulnerability in any SchweizerischeBundesbahnen repository, please report it to us as described below.
 ## Reporting Security Issues
 **Please do not report security vulnerabilities through public GitHub issues.**
-Instead, send email to [securityissues@sbb.ch](mailto:github.security.issues@sbb.ch).
+Instead, send email to [github.security.issues@sbb.ch](mailto:github.security.issues@sbb.ch).
 
 Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
 
