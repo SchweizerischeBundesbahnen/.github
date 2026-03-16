@@ -13,14 +13,19 @@
 
 These are handled by automated tools. Focus on what requires human judgment.
 
+## Scope
+
+Only review **changed lines** in the PR diff. Do not comment on existing
+code that was not modified in this PR. Pre-existing issues are out of scope.
+
 ## Review Focus
 
-- Bugs and logic errors
+- Bugs and logic errors in changed code
 - Security vulnerabilities not caught by automated scanners
 - Breaking changes not mentioned in the PR description
 - Missing error handling in new code paths
 - Missing tests for new functionality
-- Architecture and design concerns
+- Architecture and design concerns in the changes
 
 ## Guidelines
 
