@@ -2,16 +2,16 @@
 
 ## Do NOT Report
 
-Issues that static analysis tools catch. Linters, formatters, type checkers,
-and other automated tools already run in CI. Copilot should not duplicate
-their work. Examples:
+- Code formatting (indentation, whitespace, line length, trailing commas)
+- Import ordering or grouping
+- Missing or extra semicolons
+- Unused variables or unused imports
+- Type annotation issues or missing type hints
+- Shell script quoting or syntax that shellcheck would flag
+- YAML/JSON syntax issues
+- Known security patterns that scanners detect (hardcoded secrets, CVEs in dependencies)
 
-- Linting violations (ESLint, Ruff, actionlint, shellcheck, etc.)
-- Formatting issues (Prettier, Black, gofmt, etc.)
-- Type errors (TypeScript, mypy, etc.)
-- Security scanner findings (zizmor, Trivy, gitleaks, etc.)
-
-If a tool in CI would flag it, do not comment on it.
+These are handled by automated tools. Focus on what requires human judgment.
 
 ## Review Focus
 
